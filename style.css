@@ -1,0 +1,28 @@
+/* Animation for header text */
+@keyframes color-change {
+  0%   { color: #4285F4; }  /* Blue */
+  25%  { color: #EA4335; }  /* Red */
+  50%  { color: #FBBC05; }  /* Yellow */
+  75%  { color: #34A853; }  /* Green */
+  100% { color: #4285F4; }  /* Back to Blue */
+}
+.animate-color-change {
+  animation: color-change 8s infinite;
+}
+
+/* Modal hidden by default */
+.modal {
+  display: none;
+}
+.modal.active {
+  display: flex;
+}
+
+/* Note card style */
+.note-card {
+  background-color: #5d85ff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: #e8eaed;
+  box-shadow: 0 4px 6px #6360ff, 0 1px 3px #5e5cf8;
+}
